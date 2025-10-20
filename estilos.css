@@ -50,6 +50,17 @@ nav ul {
     width: 100%;
     height: auto;
 }
+
+.metodosDePago{
+    width: 100%;
+
+}
+
+.metodosDePago img{
+    width: 100%;
+    height: auto;
+}
+
 /*  P R O D U C T O S  */
 
 .catalogo {
