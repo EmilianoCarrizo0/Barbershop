@@ -4,7 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <!--   Fuentes  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <title>Barber Shop</title>
 
     <link rel="stylesheet" href="estilos.css"> <!-- enlace al CSS -->
 </head>
@@ -35,13 +41,12 @@
 
 
     <main>
-        <div class="video">
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/Nr68e_Y1-po?si=mHDi8dga9WyF0tsQ"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <div class="video-principal">
+            <video src="./videos/video principal.mp4" muted autoplay loop></video>
         </div>
-
+        <div>
+            <img src="./imagenes/metodos de pago.jpg" alt="metodos de pago">
+        </div>
 
         <section>
             <div class="titulo-catalogo">
@@ -49,13 +54,13 @@
             </div>
             <div class="catalogo">
                 <div class="card">
-                    <div>
+                    <div class="imagen-producto">
                         <img src="./imagenes/producto1.jpg" alt="Maquina">
                     </div>
-                    <div>
+                    <div class="nombreproducto">
                         <h3>MAQUINA DE CORTE</h3>
                     </div>
-                    <div>
+                    <div class="precio">
                         <h4>$70.000</h4>
                     </div>
                     <div>
@@ -64,13 +69,13 @@
                 </div>
 
                 <div class="card">
-                    <div>
+                    <div class="imagen-producto">
                         <img src="./imagenes/producto2.jpg" alt="Tijera">
                     </div>
-                    <div>
+                    <div class="nombreproducto">
                         <h3>KIT TIJERAS + NAVAJA</h3>
                     </div>
-                    <div>
+                    <div class="precio">
                         <h4>$25.000</h4>
                     </div>
                     <div>
@@ -79,13 +84,13 @@
                 </div>
 
                 <div class="card">
-                    <div>
+                    <div class="imagen-producto">
                         <img src="./imagenes/producto3.jpg" alt="silla">
                     </div>
-                    <div>
+                    <div class="nombreproducto">
                         <h3>SILLON DE CORTE</h3>
                     </div>
-                    <div>
+                    <div class="precio">
                         <h4>$100.000</h4>
                     </div>
                     <div>
@@ -94,13 +99,13 @@
                 </div>
 
                 <div class="card">
-                    <div>
+                    <div class="imagen-producto">
                         <img src="./imagenes/producto4.jpg" alt="crema">
                     </div>
-                    <div>
+                    <div class="nombreproducto">
                         <h3>CREMA PARA RULOS</h3>
                     </div>
-                    <div>
+                    <div class="precio">
                         <h4>$10.000</h4>
                     </div>
                     <div>
